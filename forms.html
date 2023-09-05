@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="forms.css">
+    <title>Form Validation</title>
+</head>
+<body>
+    <br><br>
+    <div id="container">
+        <form name="myform" onsubmit="return validation()">
+        <h1>Registration form</h1>
+        <br><br>
+        <label for="input1">Your Name:</label>
+        <input id="input1" type="text" name="myname">
+        <br><br>
+        <label for="input2">Your EmailId:</label>
+        <input id="input2" type="email" name="mymail">
+        <br><br>
+        <label >Gender: </label>
+        <label id="male" for="input3">Male</label>
+        <input id="input3" type="radio" name="gender" >
+        <label id="female" for="input4">Female</label>
+        <input id="input4" type="radio" name="gender">
+        <br><br>
+        <label for="mySelect">Mother Tongue:</label>
+        <select id="mySelect" name="mothertongue">
+        <option>Tamil</option>
+        <option>Malayalam</option>
+        <option>Telugu</option>
+        <option>Kandam</option>
+        </select>
+        <br><br>
+        <label for="input5">Your Password   :</label>
+        <input id="input5"  name="pass" type="password"  minlength="6" >
+        <br><br>
+        <label for="input6">Confirm Password  :</label>
+        <input id="input6" type="password" name="cpass"  minlength="6" >
+        <br><br>
+        <label for="input7">Mobile Number  :</label>
+        <input id="input7" type="Number" name="mynum">
+        <br><br>
+        <label>Purpose:</label>
+        <label id="education" for="input8">Education</label>
+        <input id="input8" type="checkbox" name="need">
+        <label for="input9">Work Internship</label>
+        <input id="input9" type="checkbox" name="need">
+        <br><br>
+        
+        <label for="input11">Your Address: </label>
+        <br>
+        <textarea id="input10" name="myaddress"  rows="5" cols="20" minlength="20"></textarea>
+        <br><br><br>
+        <input id="input11" type="submit">
+        </form>
+        <script src="forms.js">
+
+        </script>
+    </div>
+</body>
+</html>

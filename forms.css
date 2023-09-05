@@ -1,0 +1,79 @@
+body{
+    background-color: antiquewhite;
+}
+
+#container{
+    background-color: dodgerblue;
+    color: white;
+    margin-left:500px;
+    margin-right: 500px;
+    padding-left: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-radius: 7px;
+}
+
+#input11{
+    margin-left:120px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: white;
+    color:black;
+}
+
+input{
+    border: solid grey;
+    border-radius: 10px;
+}
+
+h1{
+    color: black;
+}
+
+#male{
+    margin-left: 85px;
+}
+
+#education{
+    margin-left: 85px;
+}
+
+textarea{
+    margin-left: 142px;
+    border-radius: 7px;
+}
+
+#input1{
+    margin-left:55px;
+}
+
+#input2{
+    margin-left:42px;
+}
+
+select{
+    margin-left: 35px;
+    border-radius: 7px;
+}
+
+#input5{
+    margin-left:30px;
+}
+
+#input6{
+    margin-left:8px;
+}
+
+#input7{
+    margin-left:25px;
+}
+
+#input8{
+    margin-left:10px;
+}
+
+#input9{
+    margin-left:15px;
+}
